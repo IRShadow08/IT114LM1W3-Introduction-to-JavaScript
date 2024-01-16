@@ -3,3 +3,6 @@
 
 // Todo 4.6b Set the isPalindrome function as the default export of the module
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
+function isPalindrome(str) 
+{return str.split("").reverse().join("") == str;}
+module.exports = isPalindrome;
