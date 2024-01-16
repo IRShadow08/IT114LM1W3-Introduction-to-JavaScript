@@ -18,7 +18,8 @@ const c = "consts";
 // Checkpoint 1.1 What is the difference between var, let, and const?
 // Answer:
 // var = implies a global scope
-// let = local, const = constant value throughout the code
+// let = is for local scope
+// const = signifies a constant value persisting throughout the code
 
 // TODO 1.4 Try out the different arithmetic operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#arithmetic_operators
@@ -35,7 +36,13 @@ const c = "consts";
 }
 
 // Checkpoint 1.2 What operators did you use?
-// Answer: +,-,*,/,%
+// Answer:
+// Addition (+)
+// Subtraction (-)
+// Multiplication (*)
+// Division (/)
+// Percentage (%)
+
 // Your code here
 
 // TODO 1.5 Try out the different string operators
@@ -50,6 +57,7 @@ const c = "consts";
 
 // Checkpoint 1.3 What operators did you use?
 // Answer: 
+// Addition or (+)
 
 // TODO 1.6 Try out the different logical operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#logical_operators
@@ -60,14 +68,19 @@ console.log(1 === 2);
 console.log(1 != 2);
 
 // Checkpoint 1.4 What operators did you use?
-// Answer: <, >, ===, !=
-
+// Answer: 
+// Greater than (<)
+// Lessthan (>)
+// Equals (===)
+// Not Equal to (!=)
 
 // TODO 1.7 Try out the different relational operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#relational_operators
 console.log(0 in [0,1,2,3]);
 
 // Checkpoint 1.5 What does [] == false evaluate to? Why does that happen? Research why
-// Answer: Having an empty list has a value of false, resulting into true if === false as well.
+// Answer:
+// An empty list evaluates to false, hence equating to true if compared with === false
+
 // Your code here
 console.log([] == false);
